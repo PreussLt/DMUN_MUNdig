@@ -19,12 +19,20 @@ include 'includes/header.php';
             <p>Entdecke und verwalte deine Lieblingsrezepte.</p>
         </a>
 
-        <a href="calculators.php" class="tile tile-calc">
+        <a href="reis-nudel-rechner.php" class="tile tile-calc" style="--tile-gradient: var(--list-gradient);">
             <div class="tile-top">
-                <i class="fa-solid fa-calculator"></i>
-                <h3>Calculator</h3>
+                <i class="fa-solid fa-bowl-rice"></i>
+                <h3>Reis & Nudel</h3>
             </div>
-            <p>Präzise Berechnungen für deine Küche.</p>
+            <p>Mengen für Reis, Nudeln und Salat buffet.</p>
+        </a>
+
+        <a href="pizza-rechner.php" class="tile tile-calc">
+            <div class="tile-top">
+                <i class="fa-solid fa-pizza-slice"></i>
+                <h3>Pizza Rechner</h3>
+            </div>
+            <p>Optimale Pizza-Kombinationen berechnen.</p>
         </a>
 
         <a href="einkaufsliste.php" class="tile tile-list">
